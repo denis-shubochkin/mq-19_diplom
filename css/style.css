@@ -156,21 +156,10 @@ margin-right: auto;
 	position: relative;
 	
 }
-.theme-header-h {
-	display: none;
-    text-transform: uppercase;
-  	color: #e7e7e7;
-  	font-size: 50px;
-  	font-family: open-sans-b;
-  	padding-left: 6.25vw;
-  	padding-top: 10px;
-  	margin-top: 0;
-  	letter-spacing: 1px;
-}
+
 
 .img-container {
 	display: flex;
-	position: absolute;
 	width: 100%;
 	justify-content: center;
 	overflow:hidden;
@@ -195,9 +184,7 @@ margin-right: auto;
 	align-items: flex-start;
 
 }
-.articles {
-	padding-top: 230px;
-}
+
 .article {
 	padding-top: 82px;
 	padding-left: 6.25vw;
@@ -493,6 +480,10 @@ margin-right: auto;
 	font-size: 14px;
 }
 
+.img-container {
+	position: absolute;
+}
+
 .athlets-topic .img-container {
 	left: -40%;
 	top: 50px;
@@ -523,11 +514,8 @@ margin-right: auto;
 	font-size: 18px;
 }
 
- .theme-header {
-display: none;
-}
 
-.athlets-topic .theme-header-h {
+.athlets-topic .theme-header {
  	display: block;
 	padding-left: 37.7vw;
 	padding-right: 4vw;
@@ -561,7 +549,7 @@ display: none;
 	overflow:hidden;
 }
 
-.players-topic .theme-header-h {
+.players-topic .theme-header {
 	display: block;
 	padding-left: 4.3vw;
 	padding-right: 45vw;
@@ -570,8 +558,10 @@ display: none;
 	padding-top: 0;
 
 }
+
+
 .players-topic .article {
-	padding-left: 4.3vw;
+	padding-left: 30px;
 	padding-right: 45vw;
 	padding-top: 30px;
 }
@@ -732,6 +722,10 @@ display: none;
 	font-size: 14px;
 }
 
+.img-container {
+	position: absolute;
+}
+
 .athlets-topic .img-container {
 	right: 48%;
 	top: 30px;
@@ -764,14 +758,8 @@ display: none;
 	font-size: 18px;
 }
 
-.theme-header {
-	  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute;
-}
 
-.athlets-topic .theme-header-h {
+.athlets-topic .theme-header {
 	display: block;
 	padding-left: 52.6%;
 	padding-right: 10.1vw;
@@ -791,7 +779,7 @@ display: none;
 
 
 .players-topic .img-container {
-	left: 52%;
+	left: 40%;
 	top: 2%;
 	max-width: 1000px;
 }
@@ -805,7 +793,7 @@ display: none;
 	max-width: 1920px;
 }
 
-.players-topic .theme-header-h {
+.players-topic .theme-header {
 	display: block;
 	padding-left: 9.9%;
 	padding-right: 50.7%;
