@@ -163,6 +163,7 @@ margin-right: auto;
 	width: 100%;
 	justify-content: center;
 	overflow:hidden;
+	margin-bottom: 20px;
 }
 
 
@@ -482,6 +483,7 @@ margin-right: auto;
 
 .img-container {
 	position: absolute;
+	margin-bottom:0;
 }
 
 .athlets-topic .img-container {
@@ -724,6 +726,7 @@ margin-right: auto;
 
 .img-container {
 	position: absolute;
+	margin-bottom: 0;
 }
 
 .athlets-topic .img-container {
